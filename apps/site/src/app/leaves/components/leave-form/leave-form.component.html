@@ -1,0 +1,31 @@
+<form
+  (ngSubmit)="submit()"
+  [formGroup]="form"
+  class="max-w-xl mx-auto w-full flex flex-col my-4 space-y-4"
+>
+  <h2 class="text-center mat-headline-5">{{ formTitle }}</h2>
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="leaveDate" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+    <mat-error *ngIf="form.get('leaveDate')?.hasError('required')">
+      Reason is a required filed
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Reason</mat-label>
+    <textarea
+      matInput
+      formControlName="reason"
+      placeholder="Why do you need to take a vacation?"
+    ></textarea>
+    <mat-error *ngIf="form.get('reason')?.hasError('required')">
+      Reason is a required filed
+    </mat-error>
+  </mat-form-field>
+  <button mat-raised-button color="primary" [disabled]="form.invalid">
+    {{ kind | titlecase }}
+  </button>
+</form>

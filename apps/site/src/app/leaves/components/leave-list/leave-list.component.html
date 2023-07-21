@@ -1,0 +1,21 @@
+<section class="grid grid-cols-2 gap-2 my-4 mx-auto max-w-4xl">
+  <mat-card *ngFor="let leave of leaveList$ | async">
+    <mat-card-header>
+      <mat-card-subtitle>
+        <span [class]="getStatusClasses(leave.status)">
+          {{ leave.status }}
+        </span>
+      </mat-card-subtitle>
+      <mat-card-title>{{ leave.leaveDate | date : 'fullDate' }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ leave.reason }}</p>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions *ngIf="isPending(leave)">
+      <a mat-button [routerLink]="['/leaves', leave.id, 'edit']">EDIT</a>
+      <button mat-button (click)="remove(leave.id)">REMOVE</button>
+    </mat-card-actions>
+    <mat-card-footer> </mat-card-footer>
+  </mat-card>
+</section>

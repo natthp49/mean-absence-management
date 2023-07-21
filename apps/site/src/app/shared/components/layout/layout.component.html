@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+  <a routerLink="/leaves" routerLinkActive="underline underline-offset-4"
+    >Leaves</a
+  >
+  <button
+    mat-button
+    [matMenuTriggerFor]="menu"
+    class="ml-auto"
+    *ngIf="authService.profile$ | async as profile; else register"
+  >
+    {{ profile.name }}
+  </button>
+  <ng-template #register>
+    <a
+      mat-button
+      routerLink="/auth/register"
+      routerLinkActive="underline underline-offset-4"
+      class="ml-auto"
+      >Register</a
+    >
+  </ng-template>
+</mat-toolbar>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item routerLink="/auth/profile">Edit Profile</a>
+  <button mat-menu-item (click)="authService.logout()">Logout</button>
+</mat-menu>
+<mean-absence-management-flash-message></mean-absence-management-flash-message>
+<router-outlet></router-outlet>

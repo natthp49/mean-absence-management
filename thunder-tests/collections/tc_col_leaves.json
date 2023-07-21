@@ -1,0 +1,98 @@
+{
+    "_id": "12af3609-7b2a-4a32-b549-86bcf28547ee",
+    "colName": "leaves",
+    "created": "2023-03-16T11:58:08.234Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "70796ac4-250d-4abc-97af-8f4367952ba2",
+            "colId": "12af3609-7b2a-4a32-b549-86bcf28547ee",
+            "containerId": "",
+            "name": "/leaves",
+            "url": "{{baseUrl}}/leaves",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-16T11:58:15.184Z",
+            "modified": "2023-03-18T04:12:20.732Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{access_token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "9567c8d8-9ad6-41a9-a9c9-bf8635eb99e9",
+            "colId": "12af3609-7b2a-4a32-b549-86bcf28547ee",
+            "containerId": "",
+            "name": "/leaves",
+            "url": "{{baseUrl}}/leaves",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-17T11:45:24.107Z",
+            "modified": "2023-03-19T13:36:52.306Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"leaveDate\": \"2023-05-06T00:00:00.000Z\",\n  \"reason\": \"ฟรังก์ริคเตอร์แฮปปี้เพรียวบางโมหจริต โฟล์คอพาร์ตเมนต์บอมบ์ บ๊อบสต็อค ยูวี มอบตัว โอยัวะบาบูน ฟิวเจอร์พุทธศตวรรษผู้นำครัวซองต์ วานิลาช็อคบ๊อกซ์ คอร์รัปชัน เซ็นเซอร์มอยส์เจอไรเซอร์แคมปัสจิตเภทเท็กซ์ เมเปิลคันธาระเปเปอร์เพลซฟรังก์ชั่นคอนเซปต์\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{access_token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "b25ac1e0-6095-4ef5-a85b-0cc6a1850e95",
+            "colId": "12af3609-7b2a-4a32-b549-86bcf28547ee",
+            "containerId": "",
+            "name": "/admin/leaves/:id/accept",
+            "url": "{{baseUrl}}/admin/leaves/{id}/approve",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2023-03-19T09:21:31.428Z",
+            "modified": "2023-06-30T12:09:57.130Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "649ec2aa16caa5395c90dc8c",
+                    "isPath": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{access_token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0c2b8e44-52bb-4c32-918b-2b0a7b526e38",
+            "colId": "12af3609-7b2a-4a32-b549-86bcf28547ee",
+            "containerId": "",
+            "name": "GET /leaves/:id",
+            "url": "{{baseUrl}}/leaves/{id}",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-05T01:43:04.032Z",
+            "modified": "2023-07-05T01:43:47.716Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "64a4c766c697449c9414a85e",
+                    "isPath": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{access_token}}"
+            },
+            "tests": []
+        }
+    ]
+}

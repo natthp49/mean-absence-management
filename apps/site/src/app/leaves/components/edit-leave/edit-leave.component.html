@@ -1,0 +1,7 @@
+<mean-absence-management-leave-form
+  *ngIf="leave$ | async as leave; else loading"
+  kind="edit"
+  [leave]="leave"
+  (leaveSubmitted)="editLeave($event)"
+></mean-absence-management-leave-form>
+<ng-template #loading><mat-spinner></mat-spinner></ng-template>

@@ -1,0 +1,23 @@
+{
+    "_id": "2d1403b9-4bc5-4ad8-892d-b98b71feee0b",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -2,
+    "created": "2023-02-27T02:52:51.815Z",
+    "modified": "2023-02-27T02:52:51.815Z",
+    "data": [
+        {
+            "name": "baseUrl",
+            "value": "http://localhost:3333/v1"
+        },
+        {
+            "name": "access_token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGJhNWIyYTQxYjFhYmVhMmE0OTU1YzMiLCJyb2xlIjoiTWVtYmVyIiwiaWF0IjoxNjg5OTM0ODIzLCJleHAiOjE2ODk5MzQ5NzN9.3xH9aVQ9sjkohnDfPbGsKCh3qWLgZ1i0w4iVsmWtmkM"
+        },
+        {
+            "name": "refresh_token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGEyY2YxMjA1ZWMwODYxM2JkOWY0MDQiLCJpYXQiOjE2ODg0NzIxMjQsImV4cCI6MTY4OTMzNjEyNH0.jXUsISXkOANJsVYD7pj_Jj1DgpotbDBvgsImDdRPEqw"
+        }
+    ]
+}
