@@ -2,5 +2,5 @@
 
 ### Recap JavaScript and TypeScript
 
-- [JavaScript 101](\docs\JavaScript-101.md)
-- [Recap JavaScript / TypeScript](\docs\Recap-JavaScript-TypeScript.md)
+- [JavaScript 101](docs/JavaScript-101.md)
+- [Recap JavaScript / TypeScript](docs/Recap-JavaScript-TypeScript.md)
