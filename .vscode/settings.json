@@ -13,5 +13,8 @@
   "files.associations": {
     "*.scss": "tailwindcss"
   },
-  "thunder-client.saveToWorkspace": true
+  "thunder-client.saveToWorkspace": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
