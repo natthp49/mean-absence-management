@@ -1,5 +1,3 @@
 # [JavaScript 101](\docs\JavaScript-101.md)
 
-[![Babel Coder JAVASCRIPT FUNDAMENTALS](https://image.slidesharecdn.com/javascriptformodernapplication-230706070002-38d7e1ba/75/javascript-for-modern-applicationpdf-1-2048.jpg?cb=1688627117)](https://www.slideshare.net/slideshow/embed_code/key/Kv91nUEBmeBvRq)
-
-<video width="630" height="300" src="https://user-images.githubusercontent.com/126239/151127893-5c98ba8d-c431-4a25-bb1f-e0b33645a2b6.mp4"></video>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/Kv91nUEBmeBvRq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NuttavutThongjor1/javascript-for-modern-applicationpdf" title="javascript for modern application.pdf" target="_blank">javascript for modern application.pdf</a> </strong> from <strong><a href="//www.slideshare.net/NuttavutThongjor1" target="_blank">NuttavutThongjor1</a></strong> </div>
