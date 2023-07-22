@@ -483,7 +483,7 @@ export class LeaveItemComponent {
 
 เริ่มต้นด้วยการติดตั้ง Angular Material ผ่านคำสั่ง `npm i -D @angular/material` เมื่อเสร็จเรียบร้อยให้ออกคำสั่งดังนี้ต่อไป
 
-```ps1
+```powershell
 $ npx nx generate @angular/material:ng-add --project=leave
 
 Choose a prebuilt theme name, or "custom" for a custom theme: · indigo-pink
@@ -569,4 +569,4 @@ export class LeaveItemComponent {
 
 [![card](https://www.babelcoder.com/tmp/courses/images/enterprise-mean-stack/card.png)](https://www.babelcoder.com/tmp/courses/images/enterprise-mean-stack/card.png)
 
-[&lt; Back To การตั้งค่า Git Bash บน Integrated Terminal](Setting-Git-Bash-On-Integrated-Terminal.md) | [Next To การสร้าง API บน Monorepo &gt; ](Nx-Workspace.md)
+[&lt; Back To การตั้งค่า Git Bash บน Integrated Terminal](Setting-Git-Bash-On-Integrated-Terminal.md) | [Next To การสร้าง API บน Monorepo &gt; ](Create-API-On-Monorepo.md)
