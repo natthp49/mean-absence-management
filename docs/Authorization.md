@@ -27,4 +27,4 @@ const authorizer =
 export default authorizer;
 ```
 
-[&lt; Back To Authorization](Authorization.md)
+[&lt; Back To Authentication](Authentication.md)
